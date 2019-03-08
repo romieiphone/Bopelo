@@ -684,7 +684,6 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
-  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -1378,11 +1377,6 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .card-wrapper {
-    flex: auto!important;
-  }
-}
 .cid-rjoX10JqXr .navbar {
   padding: .5rem 0;
   background: #ffffff;
@@ -1878,7 +1872,7 @@ body {
   color: #c1c1c1;
 }
 .cid-rjY5zHPJKh .img-text DIV {
-  color: #b1a374;
+  color: #cccccc;
 }
 .cid-rjY5zHPJKh .img-text B {
   color: #b1a374;
